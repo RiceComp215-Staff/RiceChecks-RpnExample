@@ -8,16 +8,6 @@ there are many cases, so we require minimum test coverage.
 The initial state of this repository has all tests passing. Feel free
 to introduce bugs to the student assignment and see how RiceChecks responds.
 
-## GitHub Classroom / GitHub Actions
-
-You can clone this project using the following GitHub Classroom link:
-- https://classroom.github.com/a/X4Ez6Tno
-
-Your clone repo will be publicly visible and will appear in the `RiceChecks-Demo`
-GitHub organization, which is configured to use [GitHub Actions](https://github.com/features/actions).
-This will run the autograder automatically every time you push to the repository. 
-You will be able to see this in action by clicking on the "Commits" tab.
-
 ## Gitpod
 
 Here's a link that will drop you into the Gitpod web-based IDE using
@@ -31,3 +21,10 @@ process, above.)
 
 From the Gitpod terminal shell, run `./gradlew autograder`. 
 
+## GitHub Actions                                                                                                                        
+                                                                                                                                         
+If you're a beta-tester for GitHub Actions, this repository is configured to run the                                                     
+autograder as a GitHub Action on every push.                                                                                             
+You can see the results of the autograder by clicking the                                                                                
+"Commits" tab. Try introducing bugs, committing and pushing, to see how RiceChecks                                                       
+responds.  
